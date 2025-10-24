@@ -1,0 +1,7 @@
+AuthName "aluno13107.damiaodegoes.pt statistics"
+AuthType Basic
+AuthUserFile /home/aluno13107/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+Require all denied
+</Files>
